@@ -1,0 +1,109 @@
+body {
+    display:flex ;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+.left {
+    display: flex; 
+    align-items: center;
+    justify-content: left;
+    gap: 20px;
+    font-size: 24px;
+    color: #F9FAF8;
+    margin: 12px;
+}
+
+.right {
+    display: flex; 
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    color: #E5E7EB;
+    height: 80px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap:30px;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #E5E7EB;
+  }
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.presentazione {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-evenly;
+}
+
+.presentazione .left {
+    flex:1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 200px;
+}
+
+.presentazione .right {
+    display: flex;
+    justify-content: left;
+    align-items: center;    
+    flex: 1;
+    padding-left: 50px;
+}
+
+.right img{
+    height: 250px;
+    width: 600px;
+}
+
+.left .catch {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.left .catch-desc {
+    font-size: 18px;
+}
+
+button {
+    padding: 12px 24px;
+    border-radius: 8px;
+}
+
+button.Registrati{
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
