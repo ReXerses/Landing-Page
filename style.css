@@ -192,3 +192,26 @@ button.Registrati{
 }
 
 /* Fine Contenitore */
+
+/* Registrazione */
+
+.registrazione {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.modal {
+    display: flex;
+    justify-content: space-between;
+    background: #3882f6;
+    width: 800px;
+    margin: 80px;
+    padding: 60px;
+    gap: 20px;
+    border-radius: 16px;
+}
+
+/* Fine Registrazione */
