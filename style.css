@@ -96,12 +96,14 @@ ul {
 }
 
 .left-p .catch {
+    padding: 10px;
     font-size: 48px;
     font-weight: bolder;
     color: #E5E7EB;
 }
 
 .left-p .catch-desc {
+    padding: 10px;
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -109,6 +111,7 @@ ul {
 button {
     padding: 12px 24px;
     border-radius: 8px;
+    margin-left: 10px;
 }
 
 button.Registrati{
